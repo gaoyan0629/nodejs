@@ -10,5 +10,6 @@ function require(/* ... */) {
     // At this point, the module will now export someFunc, instead of the
     // default object.
   })(module, module.exports);
+
   return module.exports;
 }
