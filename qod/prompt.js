@@ -15,13 +15,16 @@ function prompt(question) {
 }
 
 
-function newTodo() {
-  const q = chalk.blue('Type in your todo\n')
+function newTodo(question) {
+  // const q = chalk.blue('Type in your todo\n')
+  const q = chalk.blue(`${question}\n`)
   prompt(q).then(todo => {
     console.log(todo)
   })
   console.log('I can see this line')
 }
 
-newTodo()
-console.log('I cannot see this')
+newTodo('first prompt')
+console.log('I also can see this')
+newTodo('second prompt')
+console.log('I also can see this')

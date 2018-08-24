@@ -1,9 +1,7 @@
-
 const axios = require('axios')
 const chalk = require('chalk');
 
-// const url = "https://quotes.rest/qod"
-const url = "http://quotes.rest/qod.json"
+const url = "https://theysaidso.com/img/bgs/hang_on_building_top.jpg"
 var g_res = {}
 
 // make a get request to the url
