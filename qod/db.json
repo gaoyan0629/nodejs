@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "lowdb is awesome"
+    },
+    {
+      "id": 2,
+      "title": "dbs is awesome"
+    },
+    {
+      "id": 3,
+      "title": "modeling is awesome"
+    }
+  ],
+  "user": {
+    "name": "gaoyan",
+    "age": 50
+  },
+  "count": 0,
+  "table": "custhello",
+  "account": [
+    {
+      "acct_no": 12345,
+      "product": "multiply"
+    },
+    {
+      "acct_no": 12346,
+      "product": "multi currency"
+    },
+    {
+      "acct_no": 12346,
+      "product": "multi currency"
+    },
+    {
+      "acct_no": 12346,
+      "product": "multi currency"
+    }
+  ]
+}

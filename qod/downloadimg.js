@@ -38,4 +38,6 @@ url[0] = 'https://unsplash.com/photos/AaEQmoufHLk/download?force=true'
 fn[0] = 'code.jpg'
 url[1] = 'https://theysaidso.com/img/bgs/hang_on_building_top.jpg'
 fn[1] = "hang_on_building_top.jpg"
-downloadImage(url[1],fn[1])
+url[2] = 'https://i.giphy.com/7KEmBZsC2n0sg.gif'
+fn[2] = 'suprise.gif'
+downloadImage(url[2],fn[2])
