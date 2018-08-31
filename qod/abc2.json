@@ -1,0 +1,19 @@
+{
+    "name": "qod",
+    "license": "ISC",
+    "author": "",
+    "version": "1.0.0",
+    "dependencies": {
+        "chalk": "^2.4.1",
+        "axios": "^0.18.0",
+        "lodash": "^4.17.10",
+        "lowdb": "^1.0.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "hello": 123
+    },
+    "keywords": [],
+    "main": "index.js",
+    "description": ""
+}
